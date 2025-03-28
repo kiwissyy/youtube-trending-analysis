@@ -14,8 +14,8 @@
 ``` 
 youtube-trending-analysis/ 
 ├── data/ # 수집된 데이터 
-│	├── raw/ # 원본 데이터 
-│	└── processed/ # 전처리된 데이터 
+│├── raw/ # 원본 데이터 
+│└── processed/ # 전처리된 데이터 
 ├── notebooks/ # 분석용 노트북 
 ├── scripts/ # 주요 기능 스크립트 
 ├── dashboard/ # 시각화 대시보드 (선택) 
