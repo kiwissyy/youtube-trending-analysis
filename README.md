@@ -12,19 +12,36 @@
 ## 🗂️ 폴더 구조
 
 ``` 
-youtube-trending-analysis/ 
-├── data/ # 수집된 데이터 
-│	├── raw/ # 원본 데이터 
-│	└── processed/ # 전처리된 데이터 
-├── notebooks/ # 분석용 노트북 
-├── scripts/ # 주요 기능 스크립트 
-├── dashboard/ # 시각화 대시보드 (선택) 
-├── scheduler/ # 자동화 스크립트 
-├── utils/ # 공통 유틸리티 
-├── config/ # 환경 설정 
-├── .env # 환경변수(API 키 등) 
-├── requirements.txt # 의존성 패키지 
-└── README.md # 프로젝트 설명 문서
+youtube-trending-analysis/
+├── data/                  # 수집한 데이터 저장
+│   ├── raw/               # 원본 데이터 (API 응답 그대로)
+│   └── processed/         # 전처리된 데이터 (CSV 등)
+│
+├── notebooks/             # Jupyter Notebook 파일 (EDA, 시각화 등)
+│   └── 01_eda.ipynb
+│
+├── scripts/               # 주요 기능별 파이썬 스크립트
+│   ├── fetch_data.py      # 유튜브 인기 영상 수집
+│   ├── preprocess.py      # 데이터 전처리
+│   ├── analyze.py         # 통계 분석 및 인사이트 추출
+│   └── visualize.py       # 시각화 코드
+│
+├── utils/                 # 재사용 가능한 함수들
+│   └── youtube_api.py     # API 호출 관련 유틸 함수
+│
+├── scheduler/             # 주기적 자동 실행 스크립트
+│   └── job_scheduler.py
+│
+├── dashboard/             # Streamlit 또는 Dash 대시보드 코드
+│   └── app.py
+│
+├── config/                # 환경 설정 (API 키, 국가 코드 목록 등)
+│   └── settings.yaml
+│
+├── .env                   # 환경변수 파일 (API 키 등)
+├── .gitignore             # Git에 올리지 않을 파일 목록
+├── requirements.txt       # 필요한 라이브러리 목록
+└── README.md              # 프로젝트 설명 문서
 ``` 
 
 
