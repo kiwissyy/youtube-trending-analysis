@@ -1,0 +1,20 @@
+# 📦 Data handling
+pandas        # 데이터프레임 처리
+numpy         # 수치 계산 및 배열 처리
+
+# 🌐 API 통신
+requests       # HTTP 요청 (YouTube Data API 호출용)
+
+# 🔐 환경 변수
+python-dotenv  # .env 파일에서 API 키 불러오기
+
+# 📊 시각화
+matplotlib     # 기본 시각화 도구
+seaborn        # 통계적 데이터 시각화
+plotly         # 인터랙티브한 그래프
+
+# ⏱ 자동화 (선택)
+schedule       # 특정 시간마다 작업 실행
+
+# 🖥️ 대시보드 (선택)
+streamlit    # 대시보드 개발용 (필요 시 주석 해제)

@@ -1,0 +1,12 @@
+# 가상환경
+venv/
+
+# 환경변수 파일
+.env
+
+# 캐시파일
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
